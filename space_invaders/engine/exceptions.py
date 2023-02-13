@@ -1,5 +1,13 @@
+class EGetPositionError(Exception):
+    """Не определено значение координат"""
+
+
+class EGetVelocityError(Exception):
+    """Не определено значение скорости"""
+
+
 class NegativeAngularVelocityError(Exception):
-    """Исклюение при получении отрицательного значения угловой скорости"""
+    """Исключение при получении отрицательного значения угловой скорости"""
 
 
 class NegativeFuelLevelError(Exception):

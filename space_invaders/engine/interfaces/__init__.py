@@ -4,6 +4,7 @@ from space_invaders.engine.interfaces.exception_handler import ExceptionHandler
 from space_invaders.engine.interfaces.fuel_burner import FuelBurner
 from space_invaders.engine.interfaces.fuel_checker import FuelChecker
 from space_invaders.engine.interfaces.linear_velocity_controller import LinearVelocityController
+from space_invaders.engine.interfaces.straight_line_position_controller import MoveController
 
 __all__ = (
     'Command',
@@ -12,4 +13,5 @@ __all__ = (
     'FuelBurner',
     'FuelChecker',
     'LinearVelocityController',
+    'MoveController',
 )
